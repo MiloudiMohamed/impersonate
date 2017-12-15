@@ -1,0 +1,27 @@
+{
+    "name": "devmi/impersonate",
+    "description": "Flexible impersonating laravel package.",
+    "authors": [
+        {
+            "name": "Mohamed Miloudi",
+            "email": "milou0104@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Devmi\\Impersonate\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": ">=5.0"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devmi\\Impersonate\\ImpersonateServiceProvider"
+            ]
+        }
+    }
+}
